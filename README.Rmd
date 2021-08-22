@@ -1,0 +1,17 @@
+---
+output: github_document
+---
+
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# AlecWebsiteThmr
+
+Custom ggplot2 theme with consistent styling of my [personal website](https://alecstashevsky.com).
