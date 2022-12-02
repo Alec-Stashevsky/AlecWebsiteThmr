@@ -34,3 +34,35 @@ get_primary_color <- function() {
   return("#27514d")
 
 }
+
+
+#' Two base colors for Alec's Personal Website, lightest to darkest.
+#'
+#' @export
+#'
+get_background_colors <- function() {
+
+  return(c("#fff8e3", "#e8d8c3"))
+
+}
+
+
+website_colors = c(
+  "background1" = "#fff8e3",
+  "background2" = "#e8d8c3",
+  "forest_green" = "#27514d",
+  "text" = "#73000a",
+  "link" = "#900C3F",
+  "link_hover" = "#FF5733",
+  "codeblock_fl" = "#8cd0d3",
+  "codeblock_fu" = "#efefef",
+  "codeblock_ch" = "#cc9393",
+  "codeblock_st" = "#cc9393",
+  "codeblock_kw" = "#264D66",
+  "codeblock_co" = "#7f9f7f",
+  "codeblock_va" = "#efefef",
+  "codeblock_op" = "#efefef",
+  "codeblock_message" = "#7f9f7f",
+  "codeblock_error" = "orange",
+  "codeblock_warning" = "#6A0366"
+)
